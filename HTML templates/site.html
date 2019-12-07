@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<link href="new.css" rel="stylesheet" />
+<title>sample</title>
+</head>
+<body>
+<h1>To Do App</h1>
+<meta charset="UTF-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="new.js"></script>
+<?php include "new1.php"; ?>
+<ul>
+	<li><a href="#new.html">Home</a>
+		<ul class="sub">
+			<li><a href="#new.html">home1</a></li>
+			<li><a href="#new.html">home2</a></li>
+			<li><a href="#new.html">home3</a></li>
+		</ul>
+	</li>
+	<li><a href="#new.html">Content</a></li>
+	<li><a href="#new.html">Help</a></li>
+</ul>
+<form method="get">
+<input type="text" name="username" placeholder="username"/>
+<input type="email" name="email"placeholder="email id"/>
+<input type="password" name="password" placeholder="password"/>
+<input type="submit" placeholder="submit"/>
+</form>
+<div class="wrap">
+<ul>
+	<li><?php echo $user;?></li>
+	<li><?php echo $email; ?></li>
+	<li><?php echo $password; ?></li>
+</ul>
+</div>
+</body>
+</html>
