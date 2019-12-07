@@ -1,0 +1,26 @@
+.header{
+	background-image: linear-gradient(#00F5A0,#00D9F5); 
+	font-size: 40px;
+	padding:10px;
+	display:flex;
+	color:white;
+	vertical-align: center;
+	margin:0px;
+}
+body{
+	margin:0px;
+}
+.middle{
+	text-align: center;
+	color:#00F5A0;
+}
+.footer{
+	text-align:center;
+	color:#00F5A0;
+	vertical-align: bottom;
+}
+ul{
+	list-style-type: none;
+	display:flex;
+	vertical-align: bottom; 
+}
