@@ -1,0 +1,50 @@
+.body{
+    font-family: 'roboto';
+}
+.header{
+    text-align: center;
+    height:5%;
+}
+.wrapper{
+    display: flex;
+    height:250px;
+    width: 100%;
+}
+.prof_pic{
+    min-width:30%;
+    
+}
+#tapan{
+    border-radius: 500px;
+    text-align: center;
+    height:220px;
+    margin-top:10px;
+}
+.prof_wrapper{
+    min-width:60%;
+    display:flex;
+}
+.details{
+    background-color:#ccc;
+    min-width:40%;
+}
+.home{
+    text-align: center;
+    height: 30px;
+    
+}
+.body_wrapper{
+    display:flex;
+    height: 350px;
+}
+.navigation{
+    min-width:25%;
+    background-color: #ccc;
+}
+.main{
+    min-width:75%;
+    background-color: azure;
+}
+.footer{
+    text-align: center;
+}
