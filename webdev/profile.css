@@ -27,12 +27,14 @@ body{
 .prof_pic{
     min-width:30%;
     padding:5px;
+    
 }
 #tapan{
     border-radius: 500px;
     text-align: center;
     height:220px;
     margin-top:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .prof_wrapper{
     min-width:60%;
@@ -46,6 +48,7 @@ body{
     padding-left: 5%;
     color: aliceblue;
     font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .home{
     text-align: center;
@@ -58,12 +61,14 @@ body{
     padding:3px;
     padding-top:10px;
     padding-bottom:10px;
+    
 }
 .navigation{
     min-width:25%;
     background-color:#4abaff;
     border-radius: 20px;
     padding:1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .main{
     min-width:70%;
@@ -74,6 +79,7 @@ body{
     text-align: center;
     background:#d1ebf3;
     height:50px;
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.4);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navlinks{
