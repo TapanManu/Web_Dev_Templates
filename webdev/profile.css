@@ -93,11 +93,55 @@ a{
     text-decoration: none;
     color:black;
 }
-li:hover,a:hover{
+li:hover,.navli:hover{
     color: #fff;
     cursor: pointer;
 }
 .rule{
     background-color:#ecedf0;
     height:1px;
+}
+
+.icons{
+    display:flex;
+    color:#ccc;
+    z-index:500;
+    list-style-type: none;
+    margin-top: 0px;
+}
+li{
+    padding-left: 40px;
+    
+}
+i{
+    display:block;
+    font-size: 100px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+i:hover{
+    color:#4abaff;
+    transition: 0.2s;
+}
+a:hover{
+    color:#4abaff;
+    transition: 0.2s;
+}
+.profile{
+    margin-top: 100px;
+}
+.button{
+    height:70px;
+}
+.about-info{
+    display: flex;
+    height:50px;
+    margin-top: 15px;
+}
+.fa-envelope{
+    margin-top: 10px;
+}
+.mail{
+    margin-top: 14px;
+    
 }
