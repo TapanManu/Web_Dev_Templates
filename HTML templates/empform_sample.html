@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+            display: inline-flex;
+            flex-direction: column;
+        }
+    </style>
+    <title>emp</title>
+</head>
+<body>
+    <form method="POST" action="" id="emp">
+        <label>Name:
+        <input type="text" size="20" maxlength="250" placeholder="Name"/></label>
+        <label>Address:</label>
+        <textarea rows="4" cols="40" placeholder="enter text here..">
+            Enter text here..
+        </textarea>
+        <p>Select skills:
+        <select size="2">
+            <option> Coding</option>
+            <option> Designing </option>
+            <option> communication</option>
+            <option> monitoring </option>
+        </select>
+        </p>
+        <p> Job preference </p>
+        <label> 
+            <input type="radio" />Coder
+        </label>
+        <label>
+            <input type="radio" checked="checked"/>Debugger
+        </label>
+        <label>
+            <input type="radio" /> HR
+        </label>
+        <input type="submit" value="submit" size="40"/>
+    </form>
+</body>
+</html>
