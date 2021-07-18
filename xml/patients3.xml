@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE patient SYSTEM "patients.dtd" >
+<patient>
+    <name>
+        <first_name>Jose</first_name>
+        <last_name>Abraham</last_name>
+    </name>
+    <ssid>P101</ssid>
+    <age>54</age>
+    <room_no>A336</room_no>
+    <insurance category="primary">
+        <mid>550</mid>
+        <group_no>4</group_no>
+        <phone_no>9684032122</phone_no>
+        <address>
+            <building>Hyper towers</building>
+            <street>Idappally</street>
+            <city>Kochi</city>
+        </address>
+    </insurance>
+</patient>

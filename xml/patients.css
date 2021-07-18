@@ -1,0 +1,31 @@
+patient{
+    border: 1px solid black;
+    border-radius: 10px;
+    display:block;
+    margin-left:10%;
+    margin-right:10%;
+    padding:5px;
+    margin-bottom:5px;
+    margin-top:5px;
+    background-color:bisque;
+}
+name{
+    font-family:sans-serif;
+    color:rgb(230, 36, 68);
+    display:block;
+}
+ssid{
+    display:block;
+}
+age{
+    display:block;
+}
+room_no{
+    display:block;
+}
+insurance,address,phone_no{
+    display: block;
+}
+med_problems,drug_allergies{
+    display:block;
+}

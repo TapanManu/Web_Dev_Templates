@@ -1,0 +1,6 @@
+<! ELEMENT patient (name,ssid,age,room_no,insurance)>
+<! ELEMENT name (#PCDATA)>
+<! ELEMENT ssid (#PCDATA)>
+<! ELEMENT age (#PCDATA)>
+<! ELEMENT room_no (#PCDATA)>
+<! ELEMENT insurance (#PCDATA)>
