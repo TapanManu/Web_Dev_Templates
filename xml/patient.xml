@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="patients.css" type="text/css"?>
+<patients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="patients.xsd">
+    <patient>
+        <name>
+            <first_name>Jose</first_name>
+            <middle_name>J</middle_name>
+            <last_name>Abraham</last_name>
+        </name>
+        <ssid>P101</ssid>
+        <age>54</age>
+        <room_no>A336</room_no>
+        <insurance category="primary">
+            <mid>550</mid>
+            <group_no>4</group_no>
+            <phone_no>9684032122</phone_no>
+            <address>
+                <building>Hyper towers</building>
+                <street>Idappally</street>
+                <city>Kochi</city>
+            </address>
+        </insurance>
+        <insurance category="secondary">
+            <mid>287</mid>
+            <group_no>1</group_no>
+            <phone_no>9694032192</phone_no>
+            <address>
+                <building>Hyper towers</building>
+                <street>Idappally</street>
+                <city>Kochi</city>
+            </address>
+        </insurance>
+        <med_problems>Diabetics</med_problems>
+        <drug_allergies>nil</drug_allergies>
+    </patient>
+    <patient>
+        <name>
+            <first_name>Ramanadhan</first_name>
+            <middle_name>N</middle_name>
+            <last_name>Madathil</last_name>
+        </name>
+        <ssid>P102</ssid>
+        <age>59</age>
+        <room_no>A338</room_no>
+        <insurance category="primary">
+            <mid>510</mid>
+            <group_no>2</group_no>
+            <phone_no>9633032164</phone_no>
+            <address>
+                <building>Hyper towers</building>
+                <street>Idappally</street>
+                <city>Kochi</city>
+            </address>
+        </insurance>
+        <insurance category="secondary">
+            <mid>289</mid>
+            <group_no>7</group_no>
+            <phone_no>9694534192</phone_no>
+            <address>
+                <building>No 447</building>
+                <street>Padipuram</street>
+                <city>Palakkad</city>
+            </address>
+        </insurance>
+        <med_problems>High BP</med_problems>
+        <drug_allergies>nil</drug_allergies>
+    </patient>
+    <patient>
+        <name>
+            <first_name>Shaun</first_name>
+            <middle_name>p</middle_name>
+            <last_name>Kuriakose</last_name>
+        </name>
+        <ssid>P103</ssid>
+        <age>34</age>
+        <room_no>B308</room_no>
+        <insurance category="primary">
+            <mid>500</mid>
+            <group_no>3</group_no>
+            <phone_no>9664222164</phone_no>
+            <address>
+                <building>No 12B</building>
+                <street>Alappara</street>
+                <city>Kannur</city>
+            </address>
+        </insurance>
+        <insurance category="secondary">
+            <mid>289</mid>
+            <group_no>7</group_no>
+            <phone_no>9694232192</phone_no>
+            <address>
+                <building>No 447</building>
+                <street>Padipuram</street>
+                <city>Palakkad</city>
+            </address>
+        </insurance>
+        <med_problems>High BP</med_problems>
+        <drug_allergies>nil</drug_allergies>
+    </patient>
+    <patient>
+        <name>
+            <first_name>Amruta</first_name>
+            <middle_name>V</middle_name>
+            <last_name>Krishna</last_name>
+        </name>
+        <ssid>P104</ssid>
+        <age>38</age>
+        <room_no>C118</room_no>
+        <insurance category="primary">
+            <mid>506</mid>
+            <group_no>7</group_no>
+            <phone_no>9612112164</phone_no>
+            <address>
+                <building>No 12B</building>
+                <street>Alappara</street>
+                <city>Kannur</city>
+            </address>
+        </insurance>
+        <insurance category="secondary">
+            <mid>145</mid>
+            <group_no>9</group_no>
+            <phone_no>9697892192</phone_no>
+            <address>
+                <building>Chengath towers</building>
+                <street>Pallipuram</street>
+                <city>Idukki</city>
+            </address>
+        </insurance>
+        <med_problems>Diabetics</med_problems>
+        <drug_allergies>nil</drug_allergies>
+    </patient>
+</patients>
